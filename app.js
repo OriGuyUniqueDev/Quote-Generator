@@ -29,7 +29,7 @@ share.addEventListener("click", () => {
     FB.ui({
         display: 'popup',
         method: 'share',
-        href: 'http://127.0.0.1:5501/index.html',
+        href: 'https://unique-quote-generator.netlify.app/',
       }, function(response){
           console.log(response)
       })
