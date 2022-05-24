@@ -18,12 +18,12 @@ let getQuoteFromApi = () => {
     .then((data) => updateSite(data));
 };
 function start() {
-  loaderAnimation.style.display = "inline-block";
-  mainContainer.style.display = "none";
+  loaderAnimation.style.display = "block";
+  mainContainer.style.opacity = 0;
 }
 function stop() {
   loaderAnimation.style.display = "none";
-  mainContainer.style.display = "block";
+  mainContainer.style.display = 1;
 }
 btn.addEventListener("click", getQuoteFromApi);
 share.addEventListener("click", () => {
