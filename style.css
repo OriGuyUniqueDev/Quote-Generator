@@ -60,20 +60,33 @@ body {
   padding-block: 5rem;
 }
 
+#mainContainer .textContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  gap: 3rem;
+}
+
 #mainContainer .textArea {
-  margin-left: 6rem;
   text-align: left;
   margin-bottom: 2rem;
 }
 
 #mainContainer #quoteGenerator {
   width: 85%;
+  margin: 0 auto;
   font-size: 2.5rem;
 }
 
 #mainContainer #author {
   font-size: 1.5rem;
   text-align: left;
+  width: 85%;
+  margin: 0 auto;
 }
 
 #mainContainer #interactionContainer {
@@ -115,30 +128,5 @@ button[type="button"]:hover {
 button[type="button"]:active {
   -webkit-transform: translateY(0.2rem);
           transform: translateY(0.2rem);
-}
-
-@media only screen and (max-width: 600px) {
-  #quoteGenerator {
-    width: 85%;
-    font-size: 2rem;
-  }
-  button[type="button"] {
-    width: 11rem;
-    font-size: 1.5rem;
-    height: 3.5rem;
-    padding: 0;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .textArea {
-    margin-left: -3rem;
-    text-align: left;
-    margin-bottom: 2rem;
-  }
-  #loaderAnimation {
-    border: none;
-    position: absolute;
-  }
 }
 /*# sourceMappingURL=style.css.map */
