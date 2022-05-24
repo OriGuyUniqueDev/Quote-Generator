@@ -48,7 +48,7 @@ body {
   font-size: 1.5rem;
   position: absolute;
   top: 89%;
-  text-align: center;
+  text-align: right;
 }
 #mainContainer {
   background: #4b2d5661;
@@ -58,11 +58,14 @@ body {
   -webkit-backdrop-filter: blur(2px);
   color: white;
   width: $mainContainerWidth;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 3rem;
   font-size: $mainContainerFS;
   padding-block: $mainContainerPaddingBlock;
   .textArea {
-    margin: 0 auto;
-    text-align: center;
+    margin-left: 3rem;
+    text-align: left;
     margin-bottom: $quoteGeneratorMarginBottom;
   }
   #quoteGenerator {
@@ -71,6 +74,7 @@ body {
   }
   #author {
     font-size: 1.5rem;
+    text-align: left;
   }
   #interactionContainer {
     width: $interactionContainerWidth;
@@ -99,4 +103,18 @@ button[type="button"]:hover {
 }
 button[type="button"]:active {
   transform: translateY(0.2rem);
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  button[type="button"] {
+    
+    width: 11rem;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    padding: 0;
+    align-self: center;
+   
+  }
+ 
 }

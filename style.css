@@ -35,7 +35,7 @@ body {
   font-size: 1.5rem;
   position: absolute;
   top: 89%;
-  text-align: center;
+  text-align: right;
 }
 
 #mainContainer {
@@ -47,13 +47,21 @@ body {
   -webkit-backdrop-filter: blur(2px);
   color: white;
   width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  gap: 3rem;
   font-size: 4rem;
   padding-block: 5rem;
 }
 
 #mainContainer .textArea {
-  margin: 0 auto;
-  text-align: center;
+  margin-left: 3rem;
+  text-align: left;
   margin-bottom: 2rem;
 }
 
@@ -64,6 +72,7 @@ body {
 
 #mainContainer #author {
   font-size: 1.5rem;
+  text-align: left;
 }
 
 #mainContainer #interactionContainer {
@@ -105,5 +114,17 @@ button[type="button"]:hover {
 button[type="button"]:active {
   -webkit-transform: translateY(0.2rem);
           transform: translateY(0.2rem);
+}
+
+@media only screen and (max-width: 600px) {
+  button[type="button"] {
+    width: 11rem;
+    font-size: 1.5rem;
+    height: 3.5rem;
+    padding: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
