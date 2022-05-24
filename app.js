@@ -22,6 +22,7 @@ function start() {
   mainContainer.style.visibility = "hidden";
 }
 function stop() {
+    debugger
   loaderAnimation.style.visibility = "hidden";
   mainContainer.style.visibility = "visible";
 }
