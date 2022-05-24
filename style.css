@@ -40,6 +40,7 @@ body {
 }
 
 #mainContainer {
+  opacity: 0;
   background: #4b2d5661;
   border-radius: 16px;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.448);
