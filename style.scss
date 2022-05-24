@@ -52,6 +52,7 @@ body {
   text-align: right;
 }
 #mainContainer {
+  transition: opacity 0.5s ease;
   opacity: 0;
   background: #4b2d5661;
   border-radius: 16px;
