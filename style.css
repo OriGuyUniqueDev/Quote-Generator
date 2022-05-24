@@ -136,5 +136,9 @@ button[type="button"]:active {
     text-align: left;
     margin-bottom: 2rem;
   }
+  #loaderAnimation {
+    border: none;
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=style.css.map */

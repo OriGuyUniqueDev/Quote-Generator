@@ -125,5 +125,9 @@ button[type="button"]:active {
     text-align: left;
     margin-bottom: $quoteGeneratorMarginBottom;
   }
+  #loaderAnimation {
+    border: none;
+    position: absolute;
+  }
  
 }
