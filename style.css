@@ -40,8 +40,8 @@ body {
 }
 
 #mainContainer {
-  -webkit-transition: opacity 0.5s ease;
-  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
   opacity: 0;
   background: #4b2d5661;
   border-radius: 16px;
