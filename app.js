@@ -23,7 +23,7 @@ function start() {
 }
 function stop() {
   loaderAnimation.style.display = "none";
-  mainContainer.style.display = 1;
+  mainContainer.style.opacity = 1;
 }
 btn.addEventListener("click", getQuoteFromApi);
 share.addEventListener("click", () => {
