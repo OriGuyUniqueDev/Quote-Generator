@@ -7,13 +7,13 @@ let share = document.querySelector("#share");
 let textAreaArray = [quoteText,authorText];
 
 let updateSite = (data) => {
-    quoteText.innerText = data.quotes[0].text
-    authorText.innerText = data.quotes[0].author
+    quoteText.innerText = data[0].quote
+    authorText.innerText = data[0].author
     stop()
 }
 let getQuoteFromApi = () => {
     start()
-    fetch("https://goquotes-api.herokuapp.com/api/v1/random?count=1").then(response => response.json()).then(data =>updateSite(data))
+    fetch("https://api.breakingbadquotes.xyz/v1/quotes").then(response => response.json()).then(data =>updateSite(data))
 
 }
 function start() {
