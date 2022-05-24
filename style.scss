@@ -115,3 +115,8 @@ button[type="button"]:hover {
 button[type="button"]:active {
   transform: translateY(0.2rem);
 }
+@media only screen and (max-width: 600px) {
+  #quoteGenerator {
+  font-size: 1.8rem;
+  }
+}
