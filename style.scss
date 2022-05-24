@@ -31,9 +31,10 @@ body {
     #66386d 68%
   );
   min-height: 100vh;
+  margin-top: 8rem;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-family: $fontFamily;
 }
