@@ -132,7 +132,7 @@ button[type="button"]:active {
         align-self: center;
   }
   .textArea {
-    margin-left: 3rem;
+    margin-left: -3rem;
     text-align: left;
     margin-bottom: 2rem;
   }
