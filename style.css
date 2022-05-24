@@ -10,6 +10,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -24,8 +28,18 @@ body {
   position: absolute;
 }
 
+#developer {
+  opacity: 0.5;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 89%;
+  text-align: center;
+}
+
 #mainContainer {
-  background: rgba(75, 45, 86, 0.38);
+  background: #4b2d5661;
   border-radius: 16px;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.448);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.448);
