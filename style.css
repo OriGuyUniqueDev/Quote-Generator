@@ -61,7 +61,7 @@ body {
 }
 
 #mainContainer .textArea {
-  margin-left: 3rem;
+  margin-left: 6rem;
   text-align: left;
   margin-bottom: 2rem;
 }
@@ -118,6 +118,10 @@ button[type="button"]:active {
 }
 
 @media only screen and (max-width: 600px) {
+  #quoteGenerator {
+    width: 85%;
+    font-size: 2rem;
+  }
   button[type="button"] {
     width: 11rem;
     font-size: 1.5rem;

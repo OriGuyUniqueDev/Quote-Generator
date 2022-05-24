@@ -65,7 +65,7 @@ body {
   font-size: $mainContainerFS;
   padding-block: $mainContainerPaddingBlock;
   .textArea {
-    margin-left: 3rem;
+    margin-left: 6rem;
     text-align: left;
     margin-bottom: $quoteGeneratorMarginBottom;
   }
@@ -107,7 +107,10 @@ button[type="button"]:active {
 }
 
 @media only screen and (max-width: 600px) {
- 
+  #quoteGenerator {
+    width: $quoteGeneratorWidth;
+    font-size: 2rem;
+  }
   button[type="button"] {
     
     width: 11rem;
