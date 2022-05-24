@@ -35,4 +35,4 @@ share.addEventListener("click", () => {
       })
 })
 
-stop() 
+stop()
