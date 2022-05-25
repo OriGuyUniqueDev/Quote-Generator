@@ -1,4 +1,4 @@
-start()
+
 const btn = document.querySelector("#btn");
 let quoteText = document.querySelector("#quoteGenerator");
 let authorText = document.querySelector("#author");
@@ -42,4 +42,8 @@ share.addEventListener("click", () => {
   );
 });
 yearGrabber.innerText = year
-stop();
+
+setTimeout(() => {
+  stop();
+}, 1500);
+
