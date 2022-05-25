@@ -4,7 +4,9 @@ let authorText = document.querySelector("#author");
 let loaderAnimation = document.querySelector("#loaderAnimation");
 let mainContainer = document.querySelector("#mainContainer");
 let share = document.querySelector("#share");
+let yearGrabber = document.querySelector("#year");
 let textAreaArray = [quoteText, authorText];
+let year = new Date().getFullYear()
 
 let updateSite = (data) => {
   quoteText.innerText = data[0].quote;
@@ -38,5 +40,5 @@ share.addEventListener("click", () => {
     }
   );
 });
-
+yearGrabber = year
 stop();
