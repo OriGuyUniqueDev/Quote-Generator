@@ -1,3 +1,4 @@
+start()
 const btn = document.querySelector("#btn");
 let quoteText = document.querySelector("#quoteGenerator");
 let authorText = document.querySelector("#author");
