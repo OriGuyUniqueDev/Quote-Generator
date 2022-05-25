@@ -46,10 +46,12 @@ body {
   opacity: 0.5;
   color: white;
   margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   position: absolute;
-  top: 89%;
+  top: 85%;
   text-align: right;
+  width: $mainContainerWidth;
+  text-align: center;
 }
 #mainContainer {
   transition: opacity 1s ease;
