@@ -40,5 +40,5 @@ share.addEventListener("click", () => {
     }
   );
 });
-yearGrabber = year
+yearGrabber.innerText = year
 stop();
