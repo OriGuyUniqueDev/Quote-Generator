@@ -43,12 +43,12 @@ body {
   -webkit-transition: opacity 1s ease;
   transition: opacity 1s ease;
   opacity: 0;
-  background: #4b2d5661;
+  background: #4b2d562b;
   border-radius: 16px;
-  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.448);
-          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.448);
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  -webkit-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.448);
+          box-shadow: 0 0px 30px rgba(0, 0, 0, 0.448);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   color: white;
   width: 80vw;
   display: -webkit-box;
