@@ -1,5 +1,5 @@
 
-#  Unique - Quote Generator.
+#  Breaking Bad - Quote Generator.
 
 "the breaking bad" quote generator web app.
 
