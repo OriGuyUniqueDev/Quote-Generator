@@ -16,9 +16,9 @@ let updateSite = (data) => {
 };
 let getQuoteFromApi = () => {
   start();
-  fetch("https://api.breakingbadquotes.xyz/v1/quotes")
+  fetch("https://api.breakingbadquots.xyz/v1/quotes")
     .then((response) => response.json())
-    .then((data) => updateSite(data));
+    .then((data) => updateSite(data)).catch(err => alert("The Service is Currently Unavailable 😔"));
 };
 function start() {
   loaderAnimation.style.display = "block";
