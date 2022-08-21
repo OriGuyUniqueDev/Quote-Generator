@@ -23,6 +23,6 @@ the app shows the user random quote from the famous series with attribute to the
 ## Authors
 
 - [@OriGuyUniqueDev](https://github.com/OriGuyUniqueDev/Quote-Generator)
-- [@Live Site](https://unique-quote-generator.netlify.app/)
+- [@Live Site](https://ori-guy-breaking-bad.netlify.app/)
 
 
